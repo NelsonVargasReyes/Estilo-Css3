@@ -1,0 +1,221 @@
+@media (min-width: 900px){
+#contenedor{
+	animation: mianimacion 1s;
+}
+*{
+	margin: 1%;		
+}
+body{
+	background:#02010a;
+	font-family: 'Dancing Script', cursive;
+}
+header{
+	background: #5b7989;
+	border-radius:10px 10px 0 0;
+	width:100%;
+	margin: auto;
+	display: flex;
+	color: #fff;
+}
+#titulo{
+	flex: auto;
+	color: #fff;
+	text-shadow: 2px 2px 2px #02010a;
+}
+a{
+	margin-top:2%;
+	text-align: right;
+	color: #fff;
+}
+.banner{
+	background: #82c3a6;	
+	margin:auto;
+	text-align: center;
+}
+.banner img{
+	width:80%;
+	height: auto;
+	box-shadow: 2px 2px 2px #02010a;
+}
+.secciones{
+	width: 100%;
+	margin:auto;	
+	display:flex;
+	background:#d5c75f;
+}
+.lago{
+	width: 50%;
+	height: auto;
+	flex: auto;
+	text-align: center;
+}
+	#lago{
+	width:60%;
+	flex: auto;
+	margin: 0 auto;
+	box-shadow: 2px 2px 2px #02010a;
+	}
+	#lago:hover{
+	-ms-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	transform: rotate(10deg);
+	box-shadow:2px 2px 2px #82c3a6;
+	}
+.camara{
+	width: 50%;
+	height: auto;
+	flex: auto;
+	text-align: center;
+}
+	#camara{
+	width:60%;
+	flex: auto;
+	box-shadow: 2px 2px 2px #02010a;
+	}
+	#camara:hover{
+	-ms-transform: translate(20px,-5px);
+	-webkit-transform: translate(20px,-5px);
+	transform: translate(20px,-5px);
+	box-shadow:2px 2px 2px #82c3a6;
+	}
+footer{
+	background:#C6d5c5;
+	margin:auto;
+	display: flex;
+	border-radius:0 0 10px 10px;
+}
+.contacto{
+	flex: auto;
+	text-align: center;
+}
+.terminos{
+	flex: auto;
+	text-align: center;
+}
+.redes{
+	flex: auto;
+	text-align: left;
+}
+.derechos{
+	flex: auto;
+	text-align: center;
+}
+}
+@media (max-width: 899px){
+#contenedor{
+	width: 100%;
+	animation: mianimacion 1s;
+}
+*{	
+	margin: 1%;
+}
+
+body{
+	background:#02010a;
+	font-family: 'Dancing Script', cursive;
+}
+header{
+	background: #5b7989;
+	border-radius:10px 10px 0 0;
+	width:100%;
+	margin: auto;
+	text-align: center;
+}
+#titulo{
+	color: #fff;
+	text-shadow: 2px 2px 2px #02010a;
+}
+a{
+	color: #fff;
+}
+.banner{
+	background: #82c3a6;	
+	margin:auto;
+	text-align: center;
+}
+.banner img{
+	width:80%;
+	height: auto;
+	box-shadow: 2px 2px 2px #02010a;
+}
+.secciones{
+	width: 96%;
+	margin: auto;
+	padding: 2%;
+	background:#d5c75f;
+}
+.lago{ 	
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+	#lago{
+	width:60%;
+	flex: auto;
+	margin: 0 auto;
+	box-shadow: 2px 2px 2px #02010a;
+	}
+	#lago:hover{
+	-ms-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	transform: rotate(10deg);
+	box-shadow:2px 2px 2px #82c3a6;
+	}
+.camara{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+	#camara{
+	width:60%;
+	flex: auto;
+	box-shadow: 2px 2px 2px #02010a;
+	}
+	#camara:hover{
+	-ms-transform: translate(20px,-5px);
+	-webkit-transform: translate(20px,-5px);
+	transform: translate(20px,-5px);
+	box-shadow:2px 2px 2px #82c3a6;
+	}
+footer{
+	background:#C6d5c5;
+	margin:auto;
+	padding: 2%;
+	border-radius:0 0 10px 10px;
+}
+.contacto{
+	text-align: left;
+}
+.terminos{
+	text-align: left;
+}
+.redes{
+	text-align: left;
+}
+.derechos{
+	text-align: left;
+}
+}
+@-webkit-keyframes mianimacion{
+	0%{
+		margin-top: 150%;
+	}
+	60%{
+		margin-top:-5%;
+	}
+	100%{
+		margin-top:0%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

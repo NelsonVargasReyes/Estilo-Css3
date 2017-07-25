@@ -1,0 +1,222 @@
+@media (min-width: 900px){
+#contenedor{
+	animation: mianimacion 1s;
+}
+*{
+	margin: 1%;
+}
+body{
+	background:#02010a;
+	font-family: 'Dancing Script', cursive;
+}
+header{
+	background: #5b7989;
+	border-radius:10px 10px 0 0;
+	width:100%;
+	margin: 0;
+	display: flex;
+	color: #fff;
+}
+#titulo{
+	flex: auto;
+	color: #fff;
+	text-shadow: 2px 2px 2px #02010a;
+}
+a{
+	margin-top:2%;
+	text-align: right;
+	color: #fff;
+}
+.galeria{	
+	background: #d5c75f;
+	margin: auto;
+	display: flex;
+	width: 100%;
+}
+	.oceano{
+		flex: auto;
+	}
+	#img1{
+		width: 100%;
+		margin: auto;
+		box-shadow: 2px 2px 2px #02010a;
+		filter: blur(10px)		
+	}
+	#img4{
+		width: 100%;
+		margin: auto;
+		box-shadow: 2px 2px 2px #02010a;
+		filter: grayscale(100%)
+	}
+	.flores{
+		flex: auto;
+	}
+	#img2{
+		width: 100%;
+		margin: auto;
+		box-shadow: 2px 2px 2px #02010a;
+		filter: grayscale(100%);
+	}
+	#img5{
+		width: 100%;
+		margin: auto;
+		box-shadow: 2px 2px 2px #02010a;
+	}
+	.piedras{
+		flex: auto;
+	}
+	#img3{
+		width: 100%;
+		margin: auto;
+		box-shadow: 2px 2px 2px #02010a;
+		filter: sepia(90%)
+	}
+	#img6{
+		width: 100%;
+		margin: auto;
+		box-shadow: 2px 2px 2px #02010a;
+		filter: grayscale(100%)		
+	}
+footer{
+	background:#C6d5c5;
+	margin:auto;
+	display: flex;
+	border-radius:0 0 10px 10px;
+}
+.contacto{
+	flex: auto;
+	text-align: center;
+}
+.terminos{
+	flex: auto;
+	text-align: center;
+}
+.redes{
+	flex: auto;
+	text-align: left;
+}
+.derechos{
+	flex: auto;
+	text-align: center;
+}
+}
+@media (max-width: 899px){
+#contenedor{
+	width: 100%;
+	animation: mianimacion 1s;
+}
+*{
+	margin: 1%;		
+}
+body{
+	background:#02010a;
+	font-family: 'Dancing Script', cursive;
+}
+header{
+	background: #5b7989;
+	border-radius:10px 10px 0 0;
+	width:100%;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+}
+#titulo{
+	color: #fff;
+	text-shadow: 2px 2px 2px #02010a;
+}
+a{
+	color: #fff;
+}
+.galeria{	
+	background: #d5c75f;
+	margin: auto;
+	padding: 2%;
+	width: 96%;
+}
+	.oceano{
+		text-align: center;
+	}
+	#img1{
+		width: 80%;
+		margin: auto;
+		box-shadow: 2px 2px 2px #02010a;
+		filter: blur(10px)		
+	}
+	#img4{
+		width: 80%;
+		margin: auto;
+		box-shadow: 2px 2px 2px #02010a;
+		filter: grayscale(100%)
+	}
+	.flores{
+		text-align: center;
+	}
+	#img2{
+		width: 80%;
+		margin: auto;
+		box-shadow: 2px 2px 2px #02010a;
+		filter: grayscale(100%);
+	}
+	#img5{
+		width: 80%;
+		margin: auto;
+		box-shadow: 2px 2px 2px #02010a;
+	}
+	.piedras{
+		text-align: center;
+	}
+	#img3{
+		width: 80%;
+		margin: auto;
+		box-shadow: 2px 2px 2px #02010a;
+		filter: sepia(90%)
+	}
+	#img6{
+		width: 80%;
+		margin: auto;
+		box-shadow: 2px 2px 2px #02010a;
+		filter: grayscale(100%)		
+	}
+footer{
+	background:#C6d5c5;
+	margin:auto;
+	padding: 2%;
+	border-radius:0 0 10px 10px;
+}
+.contacto{
+	text-align: left;
+}
+.terminos{
+	text-align: left;
+}
+.redes{
+	text-align: left;
+}
+.derechos{
+	text-align: left;
+}	
+}
+@-webkit-keyframes mianimacion{
+	0%{
+		margin-top: 150%;
+	}
+	60%{
+		margin-top:-5%;
+	}
+	100%{
+		margin-top:0%;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
